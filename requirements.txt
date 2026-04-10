@@ -1,0 +1,8 @@
+huggingface_hub
+transformers
+diffusers
+accelerate
+safetensors
+Pillow
+numpy
+cohere
