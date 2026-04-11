@@ -335,7 +335,7 @@ def generate_prompts(theme):
 # SDXL INFERENCE WRAPPER (Text-to-Image)
 # ------------------------------------------------------------
 MAX_SEED = np.iinfo(np.int32).max
-MAX_IMAGE_SIZE = 1500
+MAX_IMAGE_SIZE = 1536
 
 
 @spaces.GPU(duration=60)  # 시간 제한 추가
